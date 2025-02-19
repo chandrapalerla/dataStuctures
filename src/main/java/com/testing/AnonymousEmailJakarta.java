@@ -9,8 +9,8 @@ public class AnonymousEmailJakarta {
     public static void sendAnonymousEmail(String to, String subject, String message) throws MessagingException {
 
         // 1. Disposable Email (REPLACE with your disposable email service details)
-        String from = "your_disposable_email@example.com";
-        String password = "your_disposable_email_password";
+        String from = "From Mail Id";
+        String password = "email_password";
         String smtpHost = "mail.example.com"; // Your disposable email service's SMTP host
         int smtpPort = 587; // Or the appropriate port
 
