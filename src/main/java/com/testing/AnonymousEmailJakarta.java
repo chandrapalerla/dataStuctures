@@ -9,9 +9,9 @@ public class AnonymousEmailJakarta {
     public static void sendAnonymousEmail(String to, String subject, String message) throws MessagingException {
 
         // 1. Disposable Email (REPLACE with your disposable email service details)
-        String from = "From Mail Id";
-        String password = "email_password";
-        String smtpHost = "mail.example.com"; // Your disposable email service's SMTP host
+        String from = "d1b94c1116-353b0f@inbox.mailtrap.io";
+        String password = "c58f4c9ecad78d";
+        String smtpHost = "sandbox.smtp.mailtrap.io"; // Your disposable email service's SMTP host
         int smtpPort = 587; // Or the appropriate port
 
         // 2. Configure Properties
@@ -43,7 +43,7 @@ public class AnonymousEmailJakarta {
 
     public static void main(String[] args) {
         try {
-            sendAnonymousEmail("recipient@example.com", "Hello", "This is an anonymous email.");
+            sendAnonymousEmail("palerla.chandrashekar@gmail.com", "Hello", "This is an anonymous email.");
         } catch (MessagingException e) {
             e.printStackTrace();
         }

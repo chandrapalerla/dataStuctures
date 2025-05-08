@@ -40,7 +40,7 @@ public class NextGreaterElement {
 
     public static void main(String[] args) {
         int[] arr = {15, 10, 16, 20, 8, 9, 7, 50};
-        int[] nge = nextGreaterElement(arr);
+        int[] nge = nextGreaterElement1(arr);
 
         for (int i = 0; i < arr.length; i++) {
             System.out.println(arr[i] + " - " + nge[i]);
